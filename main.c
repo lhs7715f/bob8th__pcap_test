@@ -138,3 +138,25 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+/*
+case 0x0D: printf("    Cipher Suite: TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x10: printf("    Cipher Suite: TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x13: printf("    Cipher Suite: TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x16: printf("    Cipher Suite: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x30: printf("    Cipher Suite: TLS_DH_DSS_WITH_AES_128_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x31: printf("    Cipher Suite: TLS_DH_RSA_WITH_AES_128_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x32: printf("    Cipher Suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x33: printf("    Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x36: printf("    Cipher Suite: TLS_DH_DSS_WITH_AES_256_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x37: printf("    Cipher Suite: TLS_DH_RSA_WITH_AES_256_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x38: printf("    Cipher Suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x39: printf("    Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x3E: printf("    Cipher Suite: TLS_DH_DSS_WITH_AES_128_CBC_SHA256 (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x3F: printf("    Cipher Suite: TLS_DH_RSA_WITH_AES_128_CBC_SHA256 (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x40: printf("    Cipher Suite: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x67: printf("    Cipher Suite: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x68: printf("    Cipher Suite: TLS_DH_DSS_WITH_AES_256_CBC_SHA256 (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x69: printf("    Cipher Suite: TLS_DH_RSA_WITH_AES_256_CBC_SHA256 (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x6A: printf("    Cipher Suite: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       case 0x6B: printf("    Cipher Suite: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x%02x%02x)\n", buf[a+2+2*i], buf[a+3+2*i]);
+       */
